@@ -1,0 +1,236 @@
+body{
+    font-size: 100%;
+}
+
+h1,h2,h3{
+    font-weight: normal;
+}
+
+.containar{
+    width: 80%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+/*-----------------------------------------*/
+header{
+    height: 80px;
+    background-color: bisque;
+    width: 100%;
+    position: fixed;
+}
+
+#header-content{
+    width: 80%;
+    margin: 0 auto;
+    background-color: blueviolet;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu ul{
+    display: flex;
+}
+/*-----------------------------------------*/
+
+.top-image{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.top-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.top-image h2{
+    font-size: 5vw;
+    text-align: center;
+    width: 70%;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    padding: 2%;
+}
+
+/*-----------------------------------------*/
+
+.top-zone{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.top-zone h3{
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+
+    background-color: white;
+    padding: 5% 10%;
+    font-size: 3rem;
+    width: 80%;
+    border-radius: 50%;
+    border: solid 1px black;
+    text-align: center;
+    color: green;
+}
+
+.image{
+    width: 30%;
+}
+
+/*-----------------------------------------*/
+
+.shop-introduction .containar{
+    border: solid 1px blue;
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduction-message{
+    text-align: center;
+    width: 70%;
+    
+}
+
+.introduction-message h2{  
+    text-align: center;
+    font-size: 2rem;
+    color: green;
+    margin-bottom: 30px;
+}
+/*-----------------------------------------*/
+.food_menu{
+    padding: 30px 0;
+    position: relative;
+}
+
+.image-chara{
+    position: absolute;
+    right: 10%;
+    width: 10%;
+}
+
+.image-chara img{
+    width: 100%;
+    height: 100%;
+}
+.heading{  
+    text-align: center;
+    font-size: 3rem;
+    color: green;
+    margin-bottom: 30px;
+}
+
+.food_menus{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+.food-content{
+    width: 30%;
+    padding: 10% 0;
+    border-radius: 50%;
+    background-color: #fbe4d4;
+    font-weight: bold;
+}
+
+
+/*-----------------------------------------*/
+.six_way{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.six_way h4{
+    padding: 30px 0;
+    color: red;
+    font-size: 2.4rem;
+
+}
+
+.six_way_image{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*-----------------------------------------*/
+.blog_news{
+    padding: 50px;
+    background-color: slategray;
+}
+.blog_news .containar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news-content{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 44%;
+    background-color: snow;
+}
+
+.news-text{
+    text-align: center;
+}
+.news-text h5{
+    font-weight: normal;
+    margin: 10px 0;
+}
+/*-----------------------------------------*/
+.about_shop{
+    padding: 50px 0;
+}
+.about_shop .containar{
+    display: flex;
+    justify-content: space-between;
+}
+.about_shop .about_text{
+    font-size: 2rem;
+    line-height: 2.5;
+}
+/*-----------------------------------------*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/

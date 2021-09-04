@@ -1,0 +1,58 @@
+
+
+/*タブレット*/
+@media (max-width:1024px) {
+
+    .containar{
+        width: 96%;
+    }
+    
+    p{
+        font-size: 12px;
+    }
+
+    .six_way h4{
+        font-size: 16px;
+    }
+
+    
+
+    .image{
+        width: 45%;
+    }
+
+    .top-zone h3{
+        font-size: 1.5rem;
+    }
+    
+    
+    .six_way_image{
+        width: 95%;
+    }
+
+    .news-content{
+        width: 88%;
+        margin-bottom: 20px;
+    }
+
+    .heading{  
+        font-size: 2rem;
+    }
+    
+
+}
+
+/*スマホ*/
+@media (max-width:599px) {
+    h1{
+        color:blue;
+    }
+
+    .containar{
+        width: 96%;
+    }
+    
+    p{
+        font-size: 12px;
+    }
+}
