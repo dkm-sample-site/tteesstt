@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>採用情報 on 株式会社〇〇</title>
+    <link>https://sample-site.darkmatter.jp/tteesstt/labo/recruit/</link>
+    <description>Recent content in 採用情報 on 株式会社〇〇</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 24 May 2021 14:44:18 +0900</lastBuildDate><atom:link href="https://sample-site.darkmatter.jp/tteesstt/labo/recruit/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
