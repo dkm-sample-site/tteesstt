@@ -6,6 +6,10 @@
     <description>Recent content in 会社情報 on 家族葬：株式会社〇〇</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 27 Aug 2021 14:45:33 +0900</lastBuildDate><atom:link href="https://sample-site.darkmatter.jp/tteesstt/funeral/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Aug 2021 14:45:33 +0900</lastBuildDate>
+    
+	<atom:link href="https://sample-site.darkmatter.jp/tteesstt/funeral/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
