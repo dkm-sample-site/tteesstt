@@ -2,9 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/categories/</loc>
-  </url><url>
     <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/</loc>
+    <lastmod>2021-10-13T16:42:10+09:00</lastmod>
+  </url><url>
+    <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/gasappliance/yokudan/</loc>
+    <lastmod>2021-10-13T16:42:10+09:00</lastmod>
+  </url><url>
+    <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/gasappliance/yukadan/</loc>
+    <lastmod>2021-10-13T16:41:58+09:00</lastmod>
+  </url><url>
+    <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/gasappliance/gasfanheater/</loc>
+    <lastmod>2021-10-13T16:41:51+09:00</lastmod>
+  </url><url>
+    <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/gasappliance/kyutoki/</loc>
+    <lastmod>2021-10-13T16:41:43+09:00</lastmod>
+  </url><url>
+    <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/gasappliance/gaskonro/</loc>
+    <lastmod>2021-10-13T16:41:34+09:00</lastmod>
+  </url><url>
+    <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/about/</loc>
+    <lastmod>2021-10-11T18:55:02+09:00</lastmod>
+  </url><url>
+    <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/privacy/</loc>
+    <lastmod>2021-10-11T18:54:57+09:00</lastmod>
+  </url><url>
+    <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/contact/</loc>
+    <lastmod>2021-10-11T18:54:50+09:00</lastmod>
+  </url><url>
+    <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/gasappliance/</loc>
+    <lastmod>2021-10-11T18:54:43+09:00</lastmod>
+  </url><url>
+    <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/lpgasprice/</loc>
+    <lastmod>2021-10-11T18:54:29+09:00</lastmod>
+  </url><url>
+    <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/lpgas/</loc>
+    <lastmod>2021-10-11T18:54:15+09:00</lastmod>
+  </url><url>
+    <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/categories/</loc>
   </url><url>
     <loc>https://sample-site.darkmatter.jp/tteesstt/lpgas/tags/</loc>
   </url>
