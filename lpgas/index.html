@@ -11,11 +11,21 @@
 
    
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
    
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
 
+   
+   <style>
+    @media (min-width:991px) and (max-width:1119px) {
+        li.nav-item {
+        font-size: 0.8rem;
+        }
+    }
+    </style>
 
 <body>
     
@@ -122,16 +132,49 @@
     <div class="row">
 <div class="col-12">
 <main>
+    <div class="top-hero-img-wrap">
     <img src="https://sample-site.darkmatter.jp/tteesstt/lpgas/img/main-image.jpg" style="max-width: 100%;">
+    
 
+    
+    
     <div class="sample-box">
-        <img class="dkm-img" src="https://sample-site.darkmatter.jp/tteesstt/lpgas/img/bonbe.jpg" style="width: 18vw">
-        <p>ガスボンベ</p>
-        <img class="dkm-img" src="https://sample-site.darkmatter.jp/tteesstt/lpgas/img/conro.jpg" style="width: 18vw">
-        <p>ガスコンロ</p>
-        <img class="dkm-img" src="https://sample-site.darkmatter.jp/tteesstt/lpgas/img/kyutoki.jpg" style="width: 16vw">
-        <p>ガス給湯器</p>
+        <div class="sample-box__wrap">　
+            <img class="dkm-img" src="https://sample-site.darkmatter.jp/tteesstt/lpgas/img/bonbe.jpg" style="width: 18vw">
+            <p class="sample-box__text">ガスボンベ</p>
+        </div>
+        <div class="sample-box__wrap">
+            <img class="dkm-img" src="https://sample-site.darkmatter.jp/tteesstt/lpgas/img/conro.jpg" style="width: 18vw">
+            <p class="sample-box__text">ガスコンロ</p>
+        </div>
+        <div class="sample-box__wrap">
+            <img class="dkm-img" src="https://sample-site.darkmatter.jp/tteesstt/lpgas/img/kyutoki.jpg" style="width: 16vw">
+            <p class="sample-box__text">ガス給湯器</p>
+        </div>
     </div>
+</div> 
+<style> 
+    .top-hero-img-wrap {
+        position: relative;
+    }
+    .sample-box {
+        width: 100%;
+        left: 50%;
+        right: 50%;
+        transform: translateY(0%) translateX(-50%);
+        -webkit- transform: translateY(0%) translateX(-50%);
+        top: unset;
+        bottom: 0%;
+        align-items: flex-end;
+    }
+    .sample-box__text{
+       background: rgba(190,176,155, 1);
+       border-left: 4px solid rgba(255,255,255,0.7); 
+       text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+    }
+     
+</style>
+
 
     <section id="sec_5" class="container py-5">
     <h2 class="font-weight-bold text-center ttl-bdr">お知らせ</h2>
@@ -188,6 +231,6 @@
     <div id="footer" class="text-center bg-primary">
 	<address><p>　©️ 株式会社〇〇</p></address>
 </div>
-
+</body>
 </html>
 
