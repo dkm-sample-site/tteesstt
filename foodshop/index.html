@@ -31,13 +31,13 @@
         <div class="container"> <a class="navbar-brand" href="#"><img src="img/template-logo01-wt.png" alt="logo" class="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替"> <span class="navbar-toggler-icon"></span> </button>
             <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav mr-auto py-3 py-lg-0 mt-3 mt-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#">トップ</a> </li>
-                    <li class="nav-item"><a class="nav-link" href="#sec_2">店内紹介</a> </li>
-                    <li class="nav-item"><a class="nav-link" href="#sec_3">メニュー表</a> </li>
-                    <li class="nav-item"><a class="nav-link" href="#sec_4">感染対策</a> </li>
-                    <li class="nav-item"><a class="nav-link" href="#sec_5">お知らせ</a> </li>
-                    <li class="nav-item"><a class="nav-link" href="#sec_6">店舗情報</a> </li>
+                <ul class="navbar-nav mr-auto py-3 py-lg-0 mt-3 mt-lg-0"> 
+                    <li class="nav-item page_link"><a class="nav-link" href="#">トップ</a> </li>
+                    <li class="nav-item page_link"><a class="nav-link" href="#sec_2">店内紹介</a> </li>
+                    <li class="nav-item page_link"><a class="nav-link" href="#sec_3">メニュー表</a> </li>
+                    <li class="nav-item page_link"><a class="nav-link" href="#sec_4">感染対策</a> </li>
+                    <li class="nav-item page_link"><a class="nav-link" href="#sec_5">お知らせ</a> </li>
+                    <li class="nav-item page_link"><a class="nav-link" href="#sec_6">店舗情報</a> </li>
                 </ul>
                 
                 <div class="text-center text-white pb-2 pb-lg-0 bg-danger"> <a class="btn btn-block btn-outline-light py-3 font-weight-bold" role="button">ご予約は<br>03-1234-5678</a></div>
@@ -113,17 +113,20 @@
             </div>
         </div>
     </section>
+
+
     
     <section id="sec_3" class="py-5 container">
             <h2 class="font-weight-bold text-center ttl-bdr">メニュー表</h2>
-            <ul class="nav nav-tabs border-bottom-0 mb-3">
-                <li class="nav-item mr-1 d-inline-block"> <a href="#tab1" type="button" class="btn btn-outline-secondary btn-lg nav-link border rounded font-weight-normal bg-white" data-toggle="tab">ランチ</a> </li>
-                <li class="nav-item mr-1 d-inline-block"> <a href="#tab2" type="button" class="btn btn-outline-secondary btn-lg nav-link border rounded font-weight-normal bg-white" data-toggle="tab">ディナー</a> </li>
-                <li class="nav-item mr-1 d-inline-block"> <a href="#tab3" type="button" class="btn btn-outline-secondary btn-lg nav-link border rounded font-weight-normal bg-white" data-toggle="tab">デザート</a> </li>
-                <li class="nav-item d-inline-block"> <a href="#tab4" type="button" class="btn btn-outline-secondary btn-lg nav-link border rounded font-weight-normal bg-white" data-toggle="tab">お飲み物</a> </li>
+            <ul class="tab nav nav-tabs border-bottom-0 mb-3">
+                
+                <li class="nav-item mr-1 d-inline-block"> <a href="#link_a" type="button" class="btn btn-outline-secondary btn-lg nav-link border rounded font-weight-normal bg-white" data-toggle="tab">ランチ</a> </li>
+                <li class="nav-item mr-1 d-inline-block"> <a href="#link_b" type="button" class="btn btn-outline-secondary btn-lg nav-link border rounded font-weight-normal bg-white" data-toggle="tab">ディナー</a> </li>
+                <li class="nav-item mr-1 d-inline-block"> <a href="#link_c" type="button" class="btn btn-outline-secondary btn-lg nav-link border rounded font-weight-normal bg-white" data-toggle="tab">デザート</a> </li>
+                <li class="nav-item d-inline-block"> <a href="#link_d" type="button" class="btn btn-outline-secondary btn-lg nav-link border rounded font-weight-normal bg-white" data-toggle="tab">お飲み物</a> </li>
             </ul>
             <div class="tab-content">
-                <div id="tab1" class="tab-pane active">
+                <div id="link_a" class="area"> 
                     <div class="row">
                         <div class="col-lg-6 mb-3">
                             <div class="row">
@@ -166,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="tab2" class="tab-pane">
+                <div id="link_b" class="area"> 
                     <div class="row">
                         <div class="col-lg-6 mb-3">
                             <div class="row"> <img class="col-12 col-md-6 p-0 h-100 mb-3 mb-lg-0" src="img/dinner.jpg" alt="Generic placeholder image">
@@ -188,7 +191,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="tab3" class="tab-pane">
+                <div id="link_c" class="area"> 
                     <div class="row">
                         <div class="col-lg-6 mb-3">
                             <div class="row"> <img class="col-12 col-md-6 p-0 h-100 mb-3 mb-lg-0" src="img/dessert.jpg" alt="Generic placeholder image">
@@ -210,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="tab4" class="tab-pane">
+                <div id="link_d" class="area"> 
                     <div class="row">
                         <div class="col-lg-6 mb-3">
                             <div class="row"> <img class="col-12 col-md-6 p-0 h-100 mb-3 mb-lg-0" src="img/drink.jpg" alt="Generic placeholder image">
