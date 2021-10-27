@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>修理サービス on 自転車・パンク修理：〇〇自転車店</title>
+    <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/service/</link>
+    <description>Recent content in 修理サービス on 自転車・パンク修理：〇〇自転車店</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 11 Oct 2021 18:54:43 +0900</lastBuildDate><atom:link href="https://sample-site.darkmatter.jp/tteesstt/bicycle/service/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>チェーン廻りの修理</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/service/repair_chain/</link>
+      <pubDate>Wed, 13 Oct 2021 16:42:10 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/service/repair_chain/</guid>
+      <description> チェーン廻り     説明文。
+〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇   修理項目内容税込工賃備考  チェーンチェーン交換3,000円 ベルト交換3,500円 チェーン調整1,000円   </description>
+    </item>
+    
+    <item>
+      <title>ブレーキの修理</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/service/repair_break/</link>
+      <pubDate>Wed, 13 Oct 2021 16:41:58 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/service/repair_break/</guid>
+      <description> ブレーキ     説明文。
+〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇   修理項目内容税込工賃備考  ブレーキ調整1,000円 ケーブル交換1,500円   </description>
+    </item>
+    
+    <item>
+      <title>車輪廻りの修理</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/service/repair_tire/</link>
+      <pubDate>Wed, 13 Oct 2021 16:41:51 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/service/repair_tire/</guid>
+      <description> 車輪・タイヤ・チューブ     説明文。
+〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇   修理項目内容税込工賃備考  パンク1ヶ所あたり1,000円2箇所目からプラス500円 水調べ500円 タイヤチューブ前輪1,300円～ 後輪2,300円～   </description>
+    </item>
+    
+    <item>
+      <title>その他の修理</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/service/repair_others/</link>
+      <pubDate>Wed, 13 Oct 2021 16:41:43 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/service/repair_others/</guid>
+      <description> その他     説明文。
+〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇   修理項目内容税込工賃備考  補助輪交換1,000円 外装用補助輪交換1,500円 補助輪調整500円～   </description>
+    </item>
+    
+    <item>
+      <title>変速ギアの修理</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/service/repair_gear/</link>
+      <pubDate>Wed, 13 Oct 2021 16:41:43 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/service/repair_gear/</guid>
+      <description> 変速ギア     説明文。
+〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇   修理項目内容税込工賃備考  変速ギア調整1,000円 変速レバー交換1,500円 ケーブル交換1,500円～   </description>
+    </item>
+    
+    <item>
+      <title>サドルの修理</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/service/repair_saddle/</link>
+      <pubDate>Wed, 13 Oct 2021 16:41:34 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/service/repair_saddle/</guid>
+      <description> サドル     説明文。
+〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇   修理項目内容税込工賃備考  サドル点検300円 交換500円 シーポスト交換500円～   </description>
+    </item>
+    
+  </channel>
+</rss>

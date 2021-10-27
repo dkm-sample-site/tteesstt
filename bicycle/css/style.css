@@ -1,0 +1,20 @@
+.sample-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.dkm-image {
+    position: relative;
+}
+
+.dkm-image p {
+    position: absolute;
+    top:0;
+    left:0;
+}
