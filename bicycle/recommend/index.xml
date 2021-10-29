@@ -7,5 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 11 Oct 2021 18:54:15 +0900</lastBuildDate><atom:link href="https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>8</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/8/</link>
+      <pubDate>Fri, 29 Oct 2021 14:27:47 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/8/</guid>
+      <description>商品８のページ</description>
+    </item>
+    
+    <item>
+      <title>7</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/7/</link>
+      <pubDate>Fri, 29 Oct 2021 14:27:43 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/7/</guid>
+      <description>商品７のページ</description>
+    </item>
+    
+    <item>
+      <title>6</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/6/</link>
+      <pubDate>Fri, 29 Oct 2021 14:27:40 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/6/</guid>
+      <description>商品６のページ</description>
+    </item>
+    
+    <item>
+      <title>5</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/5/</link>
+      <pubDate>Fri, 29 Oct 2021 14:27:38 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/5/</guid>
+      <description>商品５のページ</description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/4/</link>
+      <pubDate>Fri, 29 Oct 2021 14:27:36 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/4/</guid>
+      <description>商品４のページ</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/3/</link>
+      <pubDate>Fri, 29 Oct 2021 14:27:33 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/3/</guid>
+      <description>商品３のページ</description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/2/</link>
+      <pubDate>Fri, 29 Oct 2021 14:27:30 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/2/</guid>
+      <description>商品２のページ</description>
+    </item>
+    
+    <item>
+      <title>1</title>
+      <link>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/1/</link>
+      <pubDate>Fri, 29 Oct 2021 14:27:13 +0900</pubDate>
+      
+      <guid>https://sample-site.darkmatter.jp/tteesstt/bicycle/recommend/bike/1/</guid>
+      <description>商品１のページ</description>
+    </item>
+    
   </channel>
 </rss>
