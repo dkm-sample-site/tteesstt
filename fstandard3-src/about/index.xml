@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>content-about-hoge-title on hoge</title>
+    <link>https://sample-site.darkmatter.jp/tteesstt/standard3-src/about/</link>
+    <description>Recent content in content-about-hoge-title on hoge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 27 Aug 2021 14:45:33 +0900</lastBuildDate><atom:link href="https://sample-site.darkmatter.jp/tteesstt/standard3-src/about/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
