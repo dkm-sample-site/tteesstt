@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>お知らせ on hoge</title>
-    <link>https://sample-site.darkmatter.jp/tteesstt/standard3-src/info/</link>
+    <link>https://sample-site.darkmatter.jp/tteesstt/fstandard3-src/info/</link>
     <description>Recent content in お知らせ on hoge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 24 May 2021 14:44:30 +0900</lastBuildDate><atom:link href="https://sample-site.darkmatter.jp/tteesstt/standard3-src/info/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 May 2021 14:44:30 +0900</lastBuildDate><atom:link href="https://sample-site.darkmatter.jp/tteesstt/fstandard3-src/info/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
