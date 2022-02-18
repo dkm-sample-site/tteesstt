@@ -30,18 +30,18 @@ header .tel a {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  font-size: 80%;
+  font-size: 200%;
 }
 
 #page-top a {
   background: #999;
   text-decoration: none;
   color:white;
-  width: 100px;
-  padding: 25px 0;
+  width: 2em;
+  padding: 0 0 0.2em 0;
   text-align: center;
   display: block;
-  border-radius: 10px;
+  border-radius: 0.5em;
 }
 
 #page-top a:hover {
@@ -49,10 +49,12 @@ header .tel a {
   background: #999;
 }
 
+/*
 .btn-outline-secondary:hover,
 .btn-outline-secondary:not(:disabled):not(.disabled).active {
   color: #6c757d !important;
 }
+*/
 
 /* ====== TOP IMAGE ====== */
 
@@ -70,7 +72,6 @@ header.top-page nav{
   z-index: 100;
 }
 
-
 .jumbotron {
   background-image: url(../img/main-image.jpg);
   background-position: center;
@@ -79,11 +80,12 @@ header.top-page nav{
   width: 100%;
   height: 100%;
   padding-top: 160px;
-  
 }
 
+/* タイトル画像上の社名表示部分背景 */
 .jumbotron .bg-rgba {
-  background-color: rgba(17, 119, 235, 0.9);
+  /* background-color: rgba(17, 119, 235, 0.9); */
+  background-color: rgba(32, 119, 235, 0.7);
 }
 
 .jumbotron h1 {
@@ -96,16 +98,16 @@ header.top-page nav{
 
 /* ====== TOPPAGE SECTION ====== */
 
-/* ギザギザ線 */
+/* ギザギザ線？コンテンツ部分の背景色 */
 .zigzag {
   position: relative;
   margin: 0% 0;
   padding: 0;
-  background-color: #074858;
+/*  background-color: #074858; */
+  background-color: steelblue;
 }
 
 /*-----------------------------*/
-
 
 #sec1 .card:nth-of-type(2) {
   border-left: none;
@@ -137,6 +139,8 @@ header.top-page nav{
   margin-bottom: 50px;
 }
 
+/* メニューの下の横線 */
+/*
 .ttl-bdr2::before {
   content: "";
   position: absolute;
@@ -147,6 +151,7 @@ header.top-page nav{
   width: 12%;
   margin: 0 auto -15px;
 }
+*/
 
 /*-------------------------------------*/
 .card-text2{
@@ -161,7 +166,7 @@ header.top-page nav{
 }
 
 #sec3 {
-  background-image: url("../img/kanki.jpg");
+  background-image: url("/img/kanki.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

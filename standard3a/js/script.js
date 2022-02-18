@@ -1,7 +1,7 @@
 // JavaScript Document
 
 //スマホの時だけ電話番号有効化
-
+/*
 if (navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)) {
   $(function() {
     $('.tel').each(function() {
@@ -14,14 +14,16 @@ if (navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)) {
     });
   });
 }
+*/
 
 //トップへ戻るボタン
 
 $(function() {
-    var topBtn = $('#page-top');    
+    var topBtn = $('#page-top');
+//    var topBtn = $('#page-top-button');
     topBtn.hide();
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 1000) {
+        if ($(this).scrollTop() > 500) {
             topBtn.fadeIn();
         } else {
             topBtn.fadeOut();
@@ -42,16 +44,16 @@ $(function() {
 });
 
 //スマホのときだけ、トップへ戻るボタン無効化
-
+/*
 if (navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)) {
   $(function() {
 	  $("#page-top").hide();
 });
 }
-
+*/
 
 //スムーススクロール
-
+/*
 $(function(){
 	$('nav a[href^="#"]').click(function(){
 		var speed = 500;
@@ -62,3 +64,4 @@ $(function(){
 		return false;
 	});
 });
+*/
