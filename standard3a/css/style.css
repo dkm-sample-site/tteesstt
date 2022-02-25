@@ -1,48 +1,174 @@
 @charset "UTF-8";
 
 /* -------------------------------------------------------------
-カスタマイズ
+変数定義
 ------------------------------------------------------------- */
-/* 変数定義 */
 :root {
+  /* 全体の背景色 */
+  --dkm-body-bg: lightsteelblue;
+
   /* コンテンツ部分背景色 */
   --dkm-main-bg: steelblue;
 
-  /* トップ画像の指定 */
-  --dkm-top-img: url(../img/main-image.jpg);
+  /* 全体のテキスト色 */
+  --dkm-text-color: white;
 
-  /* タイトル画像上の社名表示部分背景 */
+  /* ナビゲーションバー背景色 */
+  --dkm-navbar-bg: steelblue;
+
+  /* ナビゲーションバーのテキスト色　*/
+  /*
+  テキスト色指定はうまくいかない。navigation.html で変更。
+  背景色が暗いときは navbar-dark、明るいときはnavbar-light
+  */
+
+  /* トップ画像の指定 */
+  /* 細かく調整する際は jumbotron クラスで設定 */
+  --dkm-top-img: url(../img/main-image.jpg);
+  --dkm-top-img-pt: 100px; /* 上側にはみ出す高さ */
+  --dkm-top-img-pb: 100px; /* 下側にはみ出す高さ */
+
+  /* タイトル画像上の社名表示部分の背景色・透明度 */
+  --dkm-top-title-bg: rgba(70, 130, 180, 0.8);
   --dkm-top-title-bg_: rgba(17, 119, 235, 0.9);
   --dkm-top-title-bg__: rgba(32, 119, 235, 0.7);
-  --dkm-top-title-bg: rgba(70, 130, 180, 0.8);
   --dkm-top-title-bg___: rgba(10, 10, 10, 0.8);
+
+  /* タイトル画像上の社名表示部分のテキスト色 */
+  --dkm-top-title-text-color: white;
+
+  /* メニュー項目の背景、テキスト色 */
+  /* dkm-menu クラスで設定 */
 }
 
-/* 全体の背景部分 */
-.dkm-body {
-  background-color: lightsteelblue;
+/* -------------------------------------------------------------
+ナビゲーションバー部分
+------------------------------------------------------------- */
+/* 背景色 */
+.navbar {
+  background-color: var(--dkm-navbar-bg);
 }
 
-/* ナビゲーションバーの背景部分 */
-.dkm-navbar {
-  /* 明るい色にするときは navigation2.html のnavbar-darkをnavbar-lightに変更 */
-  background-color: steelblue;
+/* 電場番号画像の表示設定 */
+.dkm-nav-tel-img {
+  /* max-width: 200px; */
+  max-height: 3rem;
 }
 
-/* メニュー項目部分 */
+/* 社名表示部分 */
+.dkm-nav-company-name {
+  /* margin: 1em; */
+  padding: 1em;
+  /*
+  color: yellow;
+  */
+  font-weight: bold;
+}
+
+/* -------------------------------------------------------------
+メニュー項目部分
+------------------------------------------------------------- */
+/* 配色など */
 .dkm-menu {
   /*
   background-color: darkblue;
   background: linear-gradient(darkblue, midnightblue);
+  background: linear-gradient(mediumblue, midnightblue 15% 85%, mediumblue);
+  background: radial-gradient(midnightblue, mediumblue, midnightblue);
   */
-  background: linear-gradient(midnightblue, mediumblue, midnightblue);
+  background: radial-gradient(mediumblue, midnightblue);
   border-radius: 0.5em;
+  color: white;
 }
 
-/* section4の電話番号部分 */
-.dkm-section4-tel {
+/* index.html用 */
+.dkm-menu-index {
+  font-size: 3em;
+  line-height: 1.5;
+  position: relative;
+  padding: 0.1em;
+  margin-bottom: 20px;
+}
+
+/* index.html用 メニューの下の横線 */
+/*
+.dkm-menu-index::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom: 5px solid rgb(216, 14, 14);
+  width: 12%;
+  margin: 0 auto -15px;
+}
+*/
+
+/* サブページ用 */
+.dkm-menu-sub {
+  font-size: 3rem;
+  line-height: 1.5;
+  position: relative;
+  padding: 0.1em;
+  margin-bottom: 20px;
+}
+
+/* サブページ用 メニューの下の横線 */
+.dkm-menu-sub::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom: 5px solid #000;
+  width: 12%;
+  margin: 0 auto -15px;
+}
+
+/* -------------------------------------------------------------
+いろいろ
+------------------------------------------------------------- */
+/* トップ画像上の社名表示部分背景 */
+.dkm-jb {
+  background-color: var(--dkm-top-title-bg);
+  color: var(--dkm-top-title-text-color);
+  padding: 1.5rem !important; /* p04 */
+  border-radius: 0.25rem !important; /* rounded */
+}
+
+/* 全体の背景部分 */
+.dkm-body {
+  background-color: var(--dkm-body-bg);
+}
+
+/* 全体のテキスト色 */
+.dkm-text-color {
+  color: var(--dkm-text-color);
+}
+
+/* カードの説明文の高さを height で指定 */
+/* ブラウザの幅を変えながらはみ出さないように調整 */
+/* 指定がなければ自動調整。問題なければ指定なしでＯＫ */
+.dkm-card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  height: 250px;
+}
+.dkm-smallcard-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  /* height: 100px; */
+}
+
+/* contact sectionの電話番号部分 */
+.dkm-section_contact-tel {
   background-color: rgb(220, 53, 69);
   border-radius: 50rem;
+  margin: 2em;
 }
 
 /* -------------------------------------------------------------
@@ -84,7 +210,7 @@ header .tel a {
   background-color: rgba(96, 96, 96, 0.7);
   text-decoration: none;
   color:white;
-  width: 2em;
+  width: 1.8em;
   padding: 0 0 0.2em 0;
   text-align: center;
   display: block;
@@ -104,14 +230,13 @@ header .tel a {
 */
 
 /* -------------------------------------------------------------
-TOP IMAGE
+ページトップの画像
 ------------------------------------------------------------- */
 header.top-page {
   height: 100vh;
   overflow: hidden;
   padding-right: 0;
   padding-left: 0;
-  
 }
 
 header.top-page nav{
@@ -127,12 +252,8 @@ header.top-page nav{
   background-size: cover;
   width: 100%;
   height: 100%;
-  padding-top: 160px;
-}
-
-/* タイトル画像上の社名表示部分背景 */
-.jumbotron .bg-rgba {
-  background-color: var(--dkm-top-title-bg);
+  padding-top: var(--dkm-top-img-pt);
+  padding-bottom: var(--dkm-top-img-pb);
 }
 
 .jumbotron h1 {
@@ -157,51 +278,126 @@ TOPPAGE SECTION
   */
 }
 
-/*-----------------------------*/
 
+/* -------------------------------------------------------------
+その他
+------------------------------------------------------------- */
+/* iframe */
+/* Googleマップで使用 */
+/* htmlでの指定より優先される */
+iframe {
+  width: 100%;
+  height: 450px;
+}
+
+/* ====== SNS ====== */
+.social img {
+  width: 36px;
+  height: 36px;
+}
+
+/* ====== FOOTER ====== */
+.footer-logo {
+  width: 50%;
+}
+
+/* -------------------------------------------------------------
+メディアクエリ
+------------------------------------------------------------- */
+/* ---------------------------------------------
+大デバイス（デスクトップ, 1200px 未満）
+--------------------------------------------- */
+@media screen and (max-width: 1199.98px) {
+  .herounit h1 {
+    margin-top: 10rem;
+  }
+}
+
+/* ---------------------------------------------
+中デバイス（タブレット, 992px 未満）
+--------------------------------------------- */
+@media screen and (max-width: 991.98px) {
+  .container {
+    max-width: 740px;
+  }
+
+  .dkm-menu-index {
+    font-size: 2rem;
+  }
+
+  .dkm-menu-sub {
+    font-size: 2rem;
+  }
+}
+
+/* ---------------------------------------------
+小デバイス（横向きモバイル, 768px 未満）
+--------------------------------------------- */
+@media screen and (max-width: 767.98px) {
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  .dkm-menu-index {
+    font-size: 1.4rem;
+  }
+
+  .dkm-menu-sub {
+    font-size: 1.4rem;
+  }
+
+  #sec3 {
+    background-image: none;
+  }
+
+  header .navbar-brand {
+    width: 70%;
+  }
+
+  header .navbar-brand .logo {
+    width: 100%;
+  }
+
+  header .navbar-nav {
+    border-top: 1px solid #fff;
+  }
+
+  .footer-logo {
+    width: 100%;
+  }
+}
+
+/* ---------------------------------------------
+極小デバイス（縦向きモバイル, 576px 未満）
+--------------------------------------------- */
+@media screen and (max-width: 575.98px) {
+  .display-3 {
+    line-height: 0.8em;
+  }
+
+  .display-4 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}
+
+/* -------------------------------------------------------------
+未使用
+------------------------------------------------------------- */
+/* bootstrapの設定を上書き？不要っぽいので外しておく */
+/*
+.container {
+  max-width: 100%;
+}
+*/
+
+/*-----------------------------*/
 #sec1 .card:nth-of-type(2) {
   border-left: none;
   border-right: none;
 }
-
-.ttl-bdr {
-  font-size: 3rem;
-  line-height: 1.5;
-  position: relative;
-  margin-bottom: 50px;
-}
-
-.ttl-bdr::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-bottom: 5px solid #000;
-  width: 12%;
-  margin: 0 auto -15px;
-}
-
-.ttl-bdr2 {
-  font-size: 3rem;
-  line-height: 1.5;
-  position: relative;
-  margin-bottom: 50px;
-}
-
-/* メニューの下の横線 */
-/*
-.ttl-bdr2::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-bottom: 5px solid rgb(216, 14, 14);
-  width: 12%;
-  margin: 0 auto -15px;
-}
-*/
 
 /*-------------------------------------*/
 .card-text2{
@@ -256,115 +452,4 @@ TOPPAGE SECTION
 #sec4 table td:nth-child(7n+1) {
   background-color: #FF8A8C;
   color: #fff;
-}
-
-/* ====== SNS ====== */
-.social img {
-  width: 36px;
-  height: 36px;
-}
-
-/* ====== SNS ====== */
-
-iframe {
-  width: 100%;
-  height: 450px;
-}
-
-/* ====== FOOTER ====== */
-.footer-logo {
-  width: 50%;
-}
-
-/* =============================================
-メディアクエリ
-============================================= */
-
-/* 大デバイス（デスクトップ, 1200px 未満）
-==============================================*/
-@media screen and (max-width: 1199.98px) {
-  .herounit h1 {
-    margin-top: 10rem;
-  }
-}
-
-/* END */
-/* 中デバイス（タブレット, 992px 未満）
-==============================================*/
-@media screen and (max-width: 991.98px) {
-  .container {
-    max-width: 740px;
-  }
-
-  .ttl-bdr {
-    font-size: 2rem;
-    
-  }
-
-  .ttl-bdr2 {
-    font-size: 2rem;
-    
-  }
-}
-
-/* END */
-/* 小デバイス（横向きモバイル, 768px 未満）
-==============================================*/
-@media screen and (max-width: 767.98px) {
-  h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 1.2;
-  }
-
-  .ttl-bdr {
-    font-size: 1.4rem;
-    
-  }
-
-  .ttl-bdr2 {
-    font-size: 1.4rem;
-    
-  }
-
-  #sec3 {
-    background-image: none;
-  }
-
-  header .navbar-brand {
-    width: 70%;
-  }
-
-  header .navbar-brand .logo {
-    width: 100%;
-  }
-
-  header .navbar-nav {
-    border-top: 1px solid #fff;
-  }
-
-  .footer-logo {
-    width: 100%;
-  }
-
-}
-
-/* END */
-/* 極小デバイス（縦向きモバイル, 576px 未満）
-==============================================*/
-@media screen and (max-width: 575.98px) {
-  .display-3 {
-    line-height: 0.8em;
-  }
-
-  .display-4 {
-    font-size: 2rem;
-    line-height: 1.2;
-  }
-}
-
-/* END */
-
-.container {
-  max-width: 100%;
 }
