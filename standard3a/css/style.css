@@ -49,10 +49,20 @@
   background-color: var(--dkm-navbar-bg);
 }
 
+/* 電話番号表示 */
+.dkm-nav-tel {
+  border-radius: 0.5em;
+  background-color: rgb(220, 53, 69);
+  color: white;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
 /* 電場番号画像の表示設定 */
 .dkm-nav-tel-img {
   /* max-width: 200px; */
-  max-height: 3rem;
+  /* max-height: 3em; */
+  height: 3em;
 }
 
 /* 社名表示部分 */
